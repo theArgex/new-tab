@@ -1,0 +1,37 @@
+.searchField {
+  display: block;
+  top: 311px;
+  z-index: 200;
+  padding: 20px;
+}
+
+.search {
+  display: block;
+  width: 50vw;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.center {
+  z-index: 200;
+  width: 50vw;
+  flex: 2 !important;
+}
+
+
+.card-row {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+
+.card-col {
+  flex: 1 0 calc(50% - 1rem);
+  margin: 0 0.5rem;
+}
+
+
+particles {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
